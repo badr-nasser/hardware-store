@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Y-Soft, software, Accounting system, system, program, أنظمة محاسبية, حلول تقنية, برمجيات, نقاط بيع ">
+    <meta name="author" content="Badr Nasser ali Ziad">
+    <meta name="description" content="اكتشف أفضل الأنظمة المحاسبية والإدارية المتكاملة من واي سوفت لتطوير اعمالك">
+    <title>قسم البرمجيات | Y-Soft</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="text-white">
+
+    <div class="bg-overlay"></div>
+    
+      <div class="container my-5">
+
+         <header class="glass-card mb-4 text-center">
+
+            <h1 class="text-info"><i class="fa-solid fa-code"></i> قسم البرمجيات</h1>
+            
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="../index.html" class="glass-btn">الرئيسية</a></li>
+                    <li class="nav-item"><a href="software.html" class="glass-btn active">البرمجيات</a></li>
+                    <li class="nav-item"><a href="hardware.html" class="glass-btn">العتاد</a></li>
+                    <li class="nav-item"><a href="contact.html" class="glass-btn">تواصل معنا</a></li>
+                    <li class="nav-item"><a href="login.html" class="glass-btn">تسجيل الدخول</a></li>
+                </ul>
+            </nav>
+
+         </header>
+
+            <section class="glass-card mb-5">
+
+                <h3 class="text-info text-center mb-4">أسعار الأنظمة البرمجية</h3>
+
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover table-bordered text-center align-middle">
+                        <thead class="table-info text-dark">
+                            <tr>
+                                <th>اسم النظام</th>
+                                <th>الوصف</th>
+                                <th>السعر</th>
+                                <th>تفاصيل إضافية</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>نظام المحاسبة</td>
+                                <td>إدارة المبيعات والمخازن</td>
+                                <td>$500</td>
+                                <td><button class="btn btn-sm btn-outline-info ajax-btn" data-file="info1.txt">عرض التفاصيل</button></td>
+                            </tr>
+                            <tr>
+                                <td>نظام شؤون الموظفين</td>
+                                <td>إدارة الرواتب والحضور</td>
+                                <td>$350</td>
+                                <td><button class="btn btn-sm btn-outline-info ajax-btn" data-file="info2.txt">عرض التفاصيل</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        
+            <div class="modal fade" id="ajaxModal" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+
+                    <div class="modal-content bg-dark text-white border-info">
+
+                         <div class="modal-header border-info">
+                            <h5 class="modal-title text-info">تفاصيل النظام</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                         </div>
+
+                        <div class="modal-body" id="modalContent">
+                            جاري تحميل البيانات...
+                        </div>
+
+                        <div class="modal-footer border-info">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+    </div>
+    
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
